@@ -4,11 +4,20 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>hola</title>
-  <script src="https://public.flourish.studio/resources/embed.js"></script>  
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <style>
+    .responsive-svg {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      aspect-ratio: 805 / 600;
+      display: block;
+    }
+  </style>
 </head>
 <body>
   <h1>RawGraphs</h1>
-  <object type="image/svg+xml" data="./bumpchart.svg"></object>
+  <object type="image/svg+xml" data="./bumpchart.svg" class="responsive-svg"></object>
 
   <h1>Flourish - slopechart</h1>
   <div class="flourish-embed flourish-slope" data-src="visualisation/29659551"></div>
